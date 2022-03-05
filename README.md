@@ -11,3 +11,8 @@
 	SSLCertificateKeyFile "crt/sites.local/server.key"
 	
 </VirtualHost>
+
+
+# access-everywhere
+
+ngrok http 82 -host-header="localhost:82"
